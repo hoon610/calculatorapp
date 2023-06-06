@@ -1,24 +1,28 @@
+*{
+    font-family: 'Quicksand', 'Roboto', sans-serif;
+}
+header{
+    font-size: 50px;
+    font-weight: 900;
+}
 body{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    background-color: bisque;
 }
 #container{
     display: flex;
     flex-direction: column;
     width: 370px;
-    height: 600px;
-    margin-top: 60px;
-    border-radius: 6%;
-    background-color: darkgray;
+    
+    margin-top: 10px;
+    border-radius: 2%;
+    background-color: rgb(34, 33, 33);
     align-items: center;
 }
 
-#display{
-    background-color: black;
-    width: 340px;
-    height: 120px;
-}
 
 #buttons{
     width: 355px;
@@ -26,21 +30,81 @@ body{
     border: 3px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .rows{
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
 
 }
 .button{
-    width:74px;
-    height:74px;
-    background-color: azure;
+    width:72px;
+    height:72px;
+    background-color: rgb(98, 99, 99);
     border-radius: 50%;
+    font-size: 23px;
 }
 #equalsButton{
-    width:168px;
+    width:150px;
     height:84px;
-    background-color: azure;
+    background-color: rgb(98, 99, 99);
+    border-radius: 20%;
+    font-size: 23px;
+}
+
+#lineOne, #lineTwo{
+    color: aquamarine;
+}
+
+#lineTwo{
+    font-size: 67px;
+    justify-self: end;
+    align-self: flex-end;
+    max-width: 320px;
+    word-wrap: break-word;
+    min-height: 77px;
+}
+#lineOne{
+    font-size: 26px;
+    justify-self: start;
+    min-height: 40px;
+    align-self: flex-end;
+    text-align: center;
+    max-width: 320px
+    
+}
+
+#display{
+    background-color: rgb(56, 56, 56);
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 3%;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    overflow:hidden
+
+}
+
+#footer {
+    margin-bottom: 3px;
+    margin-top: 50px;
+    display: block;
+
+}
+a{
+    margin-left: 10px;
+    color: blue;
+    text-decoration: none; 
+}
+#site{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
