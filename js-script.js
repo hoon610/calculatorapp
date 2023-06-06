@@ -106,6 +106,7 @@ solve.addEventListener("click", function () {
     lineTwo.textContent = result;
     lineOne.textContent = numberOne + " " + operator + " " + numberTwo + " = ";
     numberOne = result
+    operatorExists = false
 });
 
 const AC = document.getElementById("AC");
@@ -127,7 +128,7 @@ C.addEventListener("click", function () {
         } else { }
     }
     else {
-        if (numberOne.length > 0) {
+        if (numberTwo.length > 0) {
             numberTwo = numberTwo.slice(0, -1);
             lineTwo.textContent = numberTwo;
         } else { }
