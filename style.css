@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 600px;
+    margin-top: 60px;
+    border-radius: 6%;
+    background-color: darkgray;
+    align-items: center;
+}
+
+#display{
+    background-color: black;
+    width: 340px;
+    height: 120px;
+}
+
+#buttons{
+    width: 355px;
+    height: 444px;
+    border: 3px;
+}
